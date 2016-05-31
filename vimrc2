@@ -1,0 +1,39 @@
+" vi compatible
+set nocompatible
+
+" ### THEME ###
+" enable syntax highlight
+syntax on
+" use solarized theme
+set background=dark
+colorscheme solarized
+
+" ### BASIC SETTINGS ###
+" auto reload when changed on disk
+set autoread
+set autoindent
+set cindent
+" expand tabs to spaces
+set expandtab
+" fix broken backspace in some setups
+set backspace=2
+" encoding
+set encoding=utf-8
+" use system clipboard
+set clipboard=unnamed
+" ignore case search
+set ignorecase
+" search as type
+set incsearch
+" show line number
+set number
+" show where you are
+set ruler
+" show command
+set showcmd
+" actual tabs occupy 4 characters
+set tabstop=4
+" shift width 4 characters
+set shiftwidth=4
+" highlight search
+set hlsearch
